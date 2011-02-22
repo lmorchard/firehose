@@ -1,0 +1,8 @@
+{
+  "name": "firehose",
+  "fullName": "firehose",
+  "description": "a basic add-on",
+  "author": "l.m.orchard <l.m.orchard@pobox.com> (http://lmorchard.com)",
+  "license": "MPL 1.1/GPL 2.0/LGPL 2.1",
+  "version": "0.1"
+}
