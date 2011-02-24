@@ -15,8 +15,8 @@ const timer = require('timer');
 
 const flow = require('flow');
 
-const { BaseService, TwitterService, StatusNetService } = 
-    require('firehose/services/index');
+const { TwitterService } = require('firehose/services/twitter');
+const { StatusNetService } = require('firehose/services/statusnet');
 
 var oauth_login_fn = "test/oauth_login.txt";
 
@@ -87,9 +87,9 @@ exports.test_authorization = function (test) {
             var $this = this;
 
             this.service = new StatusNetService({ 
-                consumer_key: 'c3bbcd2de73e01b0db941e2c48603abb',
+                consumer_key:    'c3bbcd2de73e01b0db941e2c48603abb',
                 consumer_secret: '1d56294b9f1a3fd702037a800ced93b5',
-                site_url: 'http://lmorchard.com/status/'
+                site_url:        'http://lmorchard.com/status/'
             });
 
             this.service.getAuthorizationUrl(
