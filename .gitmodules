@@ -1,0 +1,12 @@
+[submodule "packages/node-uuid"]
+	path = packages/node-uuid
+	url = https://github.com/broofa/node-uuid.git
+[submodule "packages/flow"]
+	path = packages/flow
+	url = https://github.com/willconant/flow-js.git
+[submodule "packages/underscore"]
+	path = packages/underscore
+	url = https://github.com/documentcloud/underscore.git
+[submodule "packages/backbone"]
+	path = packages/backbone
+	url = https://github.com/lmorchard/backbone.git
